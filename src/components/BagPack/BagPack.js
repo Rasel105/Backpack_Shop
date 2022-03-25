@@ -15,7 +15,7 @@ const BagPack = () => {
           const newCart = [...cart, product]
           setCart(newCart)
      }
-     console.log(cart)
+     // console.log(cart)
      return (
           <div className='bag-card-container'>
                <div className='cag-card'>
