@@ -1,7 +1,22 @@
 .cart{
      position:sticky;
-     top: 100px;
+     top: 50px;
 }
 .cart h2{
      text-align: center;
+}
+.cart-btn{
+     padding: 10px;
+     border: none;
+}
+.cart-btn{
+     background-color: rgb(58, 128, 0);
+     border: none;
+     color: rgb(155, 6, 6);
+     padding: 15px 32px;
+     text-align: center;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
 }

@@ -27,6 +27,7 @@ const BagPack = () => {
                     {
                          <Cart cart={cart} />
                     }
+
                </div>
           </div>
      );

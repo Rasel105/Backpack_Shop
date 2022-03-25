@@ -9,6 +9,8 @@
      gap: 20px;
      margin: 10px 0 10px 0;
 }
-.add-to-cart-container{
+.add-to-cart-container button{
      background-color: rgb(253, 249, 249);
+     position: sticky;
+     top: 100px;
 }
