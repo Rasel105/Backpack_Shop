@@ -1,0 +1,31 @@
+.product{
+     height: 520px;
+     width: 300px;
+     border: 1px solid gray;
+     border-radius: 10px;
+     position: relative;
+}
+.product img{
+     border-radius: 10px;
+}
+.product-info h4{
+     margin: 8px 0 0 10px;
+}
+.product-info p{
+     margin: 8px 10px;
+}
+
+.add-to-cart{
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     border: none;
+     border-radius: 0 0 10px 10px;
+     cursor: pointer;
+}
+.add-to-cart p{
+     font-size: 17px;
+}
+.add-to-cart:hover{
+     background-color: lightblue;
+}
