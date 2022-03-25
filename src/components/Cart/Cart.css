@@ -5,6 +5,10 @@
 .cart h2{
      text-align: center;
 }
+.cart h5{
+     border: 2px solid green;
+     padding: 8px;
+}
 .cart-btn{
      padding: 10px;
      border: none;

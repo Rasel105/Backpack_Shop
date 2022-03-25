@@ -17,7 +17,7 @@ const BagPack = () => {
           const newCart = [...cart, product]
           setCart(newCart)
      }
-     const handledForMe = (cart) => {
+     const chooseAgain = (cart) => {
           setClear(cart.length = 0)
      }
 
@@ -37,7 +37,7 @@ const BagPack = () => {
                </div>
                <div className='add-to-cart-container'>
                     {
-                         <Cart random={random} cart={cart} randomData={randomData} handledForMe={handledForMe} />
+                         <Cart random={random} cart={cart} randomData={randomData} chooseAgain={chooseAgain} />
                     }
 
                </div>
