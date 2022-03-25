@@ -3,6 +3,7 @@ import Products from '../Products/Products';
 import './BackPack.css'
 const BagPack = () => {
      const [bags, setBags] = useState([])
+     const [cart, setCart] = useState([])
      useEffect(() => {
           fetch('data.json')
                .then(res => res.json())
@@ -10,7 +11,8 @@ const BagPack = () => {
      }, [])
      // console.log(bags)
      const handleAddToCart = product => {
-          console.log(product)
+          const newCart = [...cart, product]
+          setCart(newCart)
      }
      return (
           <div className='bag-card-container'>
@@ -20,7 +22,9 @@ const BagPack = () => {
                     }
                </div>
                <div className='add-to-cart-container'>
-                    <h1>Right side</h1>
+                    {
+                         console.log(cart)
+                    }
                </div>
           </div>
      );
