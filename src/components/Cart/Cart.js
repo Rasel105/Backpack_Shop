@@ -2,11 +2,10 @@ import React from 'react';
 import CartDetails from '../CartDetails/CartDetails';
 import './Cart.css'
 const Cart = ({ cart, chooseAgain, randomData, random }) => {
-     console.log(random)
+     // console.log(random)
      // for (const product of cart) {
      // }
      // cart.map(pro => console.log(pro.name));
-
 
      return (
           <div className='cart'>

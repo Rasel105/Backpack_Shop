@@ -12,13 +12,18 @@ const BagPack = () => {
                .then(res => res.json())
                .then(data => setBags(data))
      }, [])
-     // console.log(bags)
+
+     // console.log(cart)
+     // if (cart.length > 4) {
+     //      alert("You can'not add more than 4")
+     // }
+
      const handleAddToCart = product => {
           const newCart = [...cart, product]
           setCart(newCart)
      }
      const chooseAgain = (cart) => {
-          console.log(cart, clear)
+          // console.log(cart, clear)
           let deleteData = [...clear, cart.length = 0];
           // setClear(cart.length = 0)
 
@@ -31,7 +36,7 @@ const BagPack = () => {
           const item = cart[randomIndex];
           setRandrom(item)
      }
-     console.log(clear)
+     // console.log(clear)
      return (
           <div className='bag-card-container'>
                <div className='cag-card'>
