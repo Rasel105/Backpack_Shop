@@ -12,10 +12,12 @@
 
 .product-info h4{
      margin: 8px 0 0 10px;
+     text-align: center;
 }
 
 .product-info p{
      margin: 8px 10px;
+     text-align: center;
 }
 
 .add-to-cart{

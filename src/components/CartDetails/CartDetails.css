@@ -1,7 +1,7 @@
 .cart-container{
      padding: 4px;
      margin: 5px;
-     border: 2px solid gray;
+     border: 1px solid gray;
      border-radius: 10px;
      display: flex;
      justify-content: center;

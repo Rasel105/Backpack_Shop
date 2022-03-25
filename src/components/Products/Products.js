@@ -9,8 +9,8 @@ const Products = ({ bag, handleAddToCart }) => {
           <div className='product'>
                <img src={image} alt="" />
                <div className='product-info'>
-                    <h4>Name: {name}</h4>
-                    <p>Price: $ {price}</p>
+                    <h4>{name}</h4>
+                    <p>$ {price}</p>
                </div>
                <button onClick={() => handleAddToCart(bag)} className='add-to-cart'>
                     <p>Add to Cart</p>
