@@ -18,7 +18,11 @@ const BagPack = () => {
           setCart(newCart)
      }
      const chooseAgain = (cart) => {
-          setClear(cart.length = 0)
+          console.log(cart, clear)
+          let deleteData = [...clear, cart.length = 0];
+          // setClear(cart.length = 0)
+
+          setClear(deleteData)
      }
 
      const randomData = (carts) => {
@@ -27,7 +31,7 @@ const BagPack = () => {
           const item = cart[randomIndex];
           setRandrom(item)
      }
-     console.log(random)
+     console.log(clear)
      return (
           <div className='bag-card-container'>
                <div className='cag-card'>
@@ -37,7 +41,7 @@ const BagPack = () => {
                </div>
                <div className='add-to-cart-container'>
                     {
-                         <Cart random={random} cart={cart} randomData={randomData} chooseAgain={chooseAgain} />
+                         <Cart random={random ? random : {}} cart={cart} randomData={randomData} chooseAgain={chooseAgain} />
                     }
 
                </div>

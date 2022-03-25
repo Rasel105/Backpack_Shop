@@ -6,8 +6,9 @@
      text-align: center;
 }
 .cart h5{
-     border: 2px solid green;
-     padding: 8px;
+     text-align: center;
+     padding: 10px;
+     color: green;
 }
 .cart-btn{
      padding: 10px;
