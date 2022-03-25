@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "THE BATMAN™ X FOSSIL Backpack",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9590001-alt?$sfcc_fos_medium$",
+    "price": 1250
+  },
+  {
+    "id": 2,
+    "name": "THE BATMAN™ X FOSSIL Waist Pack",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9591001-alt?$sfcc_fos_medium$",
+    "price": 874
+  },
+  {
+    "id": 3,
+    "name": "Fossil x Smiley® Backpack",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9580016-alt?$sfcc_fos_medium$",
+    "price": 3780
+  },
+  {
+    "id": 4,
+    "name": "Buckner Backpack",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9586343-alt?$sfcc_fos_medium$",
+    "price": 4900
+  },
+  {
+    "id": 5,
+    "name": "Buckner Backpack",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9584998-alt?$sfcc_fos_medium$",
+    "price": 4780
+  },
+  {
+    "id": 6,
+    "name": "Buckner Backpack",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9587001-alt?$sfcc_fos_medium$",
+    "price": 3780
+  },
+  {
+    "id": 7,
+    "name": "Haskell Double Zip Workbag",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9342222-alt?$sfcc_fos_medium$",
+    "price": 4900
+  },
+  {
+    "id": 8,
+    "name": "Haskell Double Zip Workbag",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9475001-alt?$sfcc_fos_medium$",
+    "price": 4780
+  },
+  {
+    "id": 9,
+    "name": "Dillon Pilot Bag",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9563222-alt?$sfcc_fos_medium$",
+    "price": 3780
+  },
+  {
+    "id": 10,
+    "name": "Buckner Convertible Backpack",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9520222-alt?$sfcc_fos_medium$",
+    "price": 4900
+  },
+  {
+    "id": 11,
+    "name": "Buckner Convertible Backpack",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9519001-alt?$sfcc_fos_medium$",
+    "price": 4780
+  },
+  {
+    "id": 12,
+    "name": "Greenville Courier",
+    "image": "https://fossil.scene7.com/is/image/FossilPartners/MBG9560222-alt?$sfcc_fos_medium$",
+    "price": 4780
+  }
+]
