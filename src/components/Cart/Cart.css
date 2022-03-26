@@ -5,6 +5,7 @@
      flex-direction: column;
 }
 .cart h2{
+     margin: 10px;
      text-align: center;
      color: #D65076;
 }
@@ -12,6 +13,7 @@
      text-align: center;
      padding: 10px;
      color: green;
+     margin: 5px;
 }
 .cart-btn{
      padding: 10px;
