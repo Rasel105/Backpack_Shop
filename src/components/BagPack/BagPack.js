@@ -19,7 +19,11 @@ const BagPack = () => {
      // }
 
      const handleAddToCart = product => {
-          const newCart = [...cart, product]
+          let newCart = [...cart, product]
+          // console.log(newCart)
+          if (newCart.length > 4) {
+               alert("You can't add more that 4");
+          }
           setCart(newCart)
      }
      const chooseAgain = (cart) => {
@@ -39,7 +43,7 @@ const BagPack = () => {
      // console.log(clear)
      return (
           <div className='bag-card-container'>
-               <div className='cag-card'>
+               <div className='bag-card'>
                     {
                          bags.map(bag => <Products key={bag.id} bag={bag} handleAddToCart={handleAddToCart} />)
                     }

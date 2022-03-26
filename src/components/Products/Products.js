@@ -20,4 +20,4 @@ const Products = ({ bag, handleAddToCart }) => {
      );
 };
 
-export default Products;
+export default Products; 

@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+### Backpack Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Backpack shop](https://backpack-shops.netlify.app).
 
 ## Available Scripts
 
