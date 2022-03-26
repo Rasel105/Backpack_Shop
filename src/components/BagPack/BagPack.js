@@ -22,9 +22,11 @@ const BagPack = () => {
           let newCart = [...cart, product]
           // console.log(newCart)
           if (newCart.length > 4) {
-               alert("You can't add more that 4");
+               alert("You can't add more than 4");
+          } else {
+               return setCart(newCart)
           }
-          setCart(newCart)
+
      }
      const chooseAgain = (cart) => {
           // console.log(cart, clear)
