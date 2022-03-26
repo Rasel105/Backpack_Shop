@@ -1,3 +1,19 @@
+.hold-ul{
+     background-color: rgb(248, 242, 242);
+}
+.hold-ul h1{
+     margin: 0;
+     font-size: 40px;
+     text-align: center;
+     padding: 10px 0 0 0;
+     color: #D65076;
+}
+.hold-ul h4{
+     margin: 0;
+     text-align: center;
+     padding: 8px 0 10px 0;
+     color: #009B77;
+}
 .bag-card-container{
      display: grid;
      grid-template-columns: 4fr 1fr;
@@ -20,4 +36,5 @@
     .bag-card{
         grid-template-columns: repeat(1, 1fr);;
     }
+   
 }

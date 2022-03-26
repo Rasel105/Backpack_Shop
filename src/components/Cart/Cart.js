@@ -15,7 +15,7 @@ const Cart = ({ cart, chooseAgain, randomData, random }) => {
                     cart.map(items => <CartDetails key={items.id} items={items} />)
                }
                <div>
-                    <button onClick={() => randomData(cart)} className='cart-btn'>Choose one for me</button>
+                    <button onClick={() => randomData(cart)} className='cart-btn'>Choose One for me</button>
                     <button onClick={() => chooseAgain(cart)} className='cart-btn'>Choose Again</button>
                </div>
           </div>

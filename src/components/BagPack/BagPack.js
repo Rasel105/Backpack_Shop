@@ -42,19 +42,24 @@ const BagPack = () => {
      }
      // console.log(clear)
      return (
-          <div className='bag-card-container'>
-               <div className='bag-card'>
-                    {
-                         bags.map(bag => <Products key={bag.id} bag={bag} handleAddToCart={handleAddToCart} />)
-                    }
-               </div>
-               <div className='add-to-cart-container'>
-                    {
-                         <Cart random={random ? random : {}} cart={cart} randomData={randomData} chooseAgain={chooseAgain} />
-                    }
+          <div className='hold-ul'>
+               <h1>Backpack Shop</h1>
+               <h4>Let's Explore online Shopping!</h4>
+               <div className='bag-card-container'>
+                    <div className='bag-card'>
+                         {
+                              bags.map(bag => <Products key={bag.id} bag={bag} handleAddToCart={handleAddToCart} />)
+                         }
+                    </div>
+                    <div className='add-to-cart-container'>
+                         {
+                              <Cart random={random ? random : {}} cart={cart} randomData={randomData} chooseAgain={chooseAgain} />
+                         }
 
+                    </div>
                </div>
           </div>
+
      );
 };
 

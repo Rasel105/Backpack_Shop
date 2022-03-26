@@ -4,7 +4,7 @@
 
 ## Project Description
 
-This is a Online back pack shopping mall, you can buy backpack with cheap rate which on would you like... 
+This is a Online backpack shopping mall, you can buy backpack with cheap rate which one would you like... 
 
 ### `npm start`
 
