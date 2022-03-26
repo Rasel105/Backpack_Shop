@@ -24,17 +24,29 @@
      grid-template-columns: repeat(3, 1fr);
      gap: 20px;
      margin: 10px 0 10px 0;
+     /* order: 2; */
 }
 .add-to-cart-container button{
      background-color: rgb(253, 249, 249);
-     position: sticky;
-     top: 100px;
+     
+     /* position: sticky;
+     top: 100px; */
 }
 
 
 @media screen and (max-width:688px) {
     .bag-card{
-        grid-template-columns: repeat(1, 1fr);;
+        grid-template-columns: repeat(1, 1fr);
+        justify-self: center;
+    }
+    .bag-card-container{
+         grid-template-columns: 1fr;
+    }
+    .bag-card{
+         order: 2;
+    }
+    .add-to-cart-container button{
+         order: 1;
     }
    
 }

@@ -1,6 +1,8 @@
 .cart{
      position:sticky;
      top: 50px;
+     display: flex;
+     flex-direction: column;
 }
 .cart h2{
      text-align: center;
@@ -15,14 +17,25 @@
      padding: 10px;
      border: none;
 }
-.cart-btn{
-     background-color: rgb(58, 128, 0);
+
+.control-btn .btn-choose{
+     background-color: #00A170;
+     margin: 0 5px 5px 0;
+     padding: 8px 15px;
+     font-size: 18px;
      border: none;
-     color: rgb(155, 6, 6);
-     padding: 15px 32px;
-     text-align: center;
-     display: inline-block;
-     font-size: 16px;
-     margin: 4px 2px;
      cursor: pointer;
+     color: white;
+     border-radius: 15px;
+}
+.control-btn .btn-clear{
+     background-color: #9B2335;
+     padding: 20px;
+     font-size: 18px;
+     border: none;
+     cursor: pointer;
+     color: white;
+     margin: 0 5px 5px 0;
+     padding: 8px 15px;
+     border-radius: 15px;
 }

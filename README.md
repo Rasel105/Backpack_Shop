@@ -1,6 +1,8 @@
 ## Backpack Shop
 
-# This project Link [Backpack shop](https://backpack-shops.netlify.app).
+# Let's Explore the Project
+
+# Project Link [Backpack shop](https://backpack-shops.netlify.app).
 
 ## Project Description
 
