@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Backpack shop](https://backpack-shops.netlify.app).
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+This is a Online back pack shopping mall, you can buy backpack with cheap rate which on would you like... 
 
 ### `npm start`
 
